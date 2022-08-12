@@ -1,62 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/float-style.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Tanishq</title>
-</head>
+        <link rel="stylesheet" href="style.css">
 
-<body>
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-    <header>
-        <div id=header-color>
-            <div>
-                <div id="header-text">
-                    <h1>Tanishq</h1>
+        <title>19BIT0275</title>
+    </head>
+    <body style="background-color: ">
+       
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Tanishq</a>
                 </div>
 
-                <div id="header-bar">
-                    <a id="left" href="index.html">About</a>
-                    <a id="middle" href="portfolio.html">Portfolio</a>
-                    <a id="right" href='contact.html'>Contact</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
                 </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+           
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Tanishq</span><br> IT Student</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/feed/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.behance.net/" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="https://github.com/" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="me.jpg" alt="" style="width: 300px ">
+                </div>
+            </section>
+
+           
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="me2.jpeg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Tanishq</h2>
+                        <p class="about__text">Currently I am sudying in 4nd year of B.Tech (IT) in VIT University, Vellore. I completed my 12th from Delhi in 2019. I love to code other than that I love playing guitar and I am district champion in swimming.
+                         </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Till now I have learned alot of languages. Like: HTML, CSS, Javascript, Python And C. </p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">45%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">55%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">C&C++</span>
+                            </div>
+                            <div class="skills__bar skills__c">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="work1.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="work2.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="work3.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="work4.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="work5.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="work6.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+           
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Enter" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__title">Portfolio</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/login?lang=en" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-        </div>
+            <p>&#169; 2022 copyright all right reserved</p>
+        </footer>
 
 
-    </header>
-    <div id="center">
-        <h1 id='about-me'>
-            About me:
-        </h1>
+     
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-        <hr>
 
-        <div id='profilePicture'>
-            <img src='1.jpeg' , align='left' ,>
-        </div>
-        <div class='paragraph'>
-            <p>
-              Hey there, I am Tanishq a student at VIT Vellore, pursuing B.Tech in Information Technology. My hometown is in Janak Puri, New Delhi. I have interest in Web development, and currently studying the MERN Stack, to become a Full Stack Developer. Other than that i know many other programming languages.
-          </p>
-            <p>
-                I am a dedicated student working toward the future where I can become a sofware engineer. 
-
-If you like me so far and want to know more, you can contact me by clicking contact me on the top bar. You can go through my skills in the portfolio.
-            </p>
-        </div>
-    </div>
-    <footer>
-        <div id=footer>
-            <p>
-                Copyright
-            </p>
-        </div>
-    </footer>
-</body>
-
+        <script src="main.js"></script>
+    </body>
 </html>
